@@ -9,8 +9,22 @@ Chivia = function () {
     })
 }
 
-Chivia.prototype.easiestRoute = () => {
-    return 'ok'
+Chivia.prototype.easiestRoute = function () {
+    let osrm = this.osrm
+    return new Promise((resolve, reject) => {
+        osrm.route(
+            {
+                coordinates: [
+                    [-56.164684, -34.913842],
+                    [-56.201119, -34.907648]
+                ]
+            },
+            (err, res) => {
+                if (err) reject(err)
+                else resolve(res)
+            }
+        )
+    })
 }
 
 module.exports = Chivia
