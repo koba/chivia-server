@@ -2,6 +2,9 @@
   "name": "chivia",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "~6.11"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
