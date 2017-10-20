@@ -10,14 +10,14 @@ Chivia = function () {
     })
 }
 
-Chivia.prototype.easiestRoute = function () {
+Chivia.prototype.easiestRoute = function (from, to) {
     let osrm = this.osrm
     return new Promise((resolve, reject) => {
         osrm.route(
             {
                 coordinates: [
-                    [-56.164684, -34.913842],
-                    [-56.201119, -34.907648]
+                    from,
+                    to
                 ]
             },
             (err, res) => {
@@ -26,7 +26,7 @@ Chivia.prototype.easiestRoute = function () {
                     res.routes.forEach(route => {
                         route.geometry = polyline.decode(route.geometry)
                     })
-                    
+
                     resolve(res)
                 }
             }

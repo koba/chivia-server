@@ -1,12 +1,23 @@
 const express = require('express')
+const bodyParser = require('body-parser')
 const app = express()
 const Chivia = require('./chivia')
 
-let server = new Chivia()
+let chivia = new Chivia()
+
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 
 app.get('/', function (req, res) {
-    server
-        .easiestRoute()
+    res.send('Chiviá')
+})
+
+app.get('/route', (req, res) => {
+    let from = req.query.from.split(',').map(i => +i)
+    let to = req.query.to.split(',').map(i => +i)
+
+    chivia
+        .easiestRoute(from, to)
         .then(route => {
             res.send(route)
         })
