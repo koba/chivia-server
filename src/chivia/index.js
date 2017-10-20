@@ -1,4 +1,5 @@
 const path = require('path')
+const polyline = require('@mapbox/polyline')
 const OSRM = require('osrm')
 
 Chivia = function () {
@@ -21,7 +22,13 @@ Chivia.prototype.easiestRoute = function () {
             },
             (err, res) => {
                 if (err) reject(err)
-                else resolve(res)
+                else {
+                    res.routes.forEach(route => {
+                        route.geometry = polyline.decode(route.geometry)
+                    })
+                    
+                    resolve(res)
+                }
             }
         )
     })

@@ -13,6 +13,7 @@
   "author": "Agustín Rodríguez <agurz@icloud.com>",
   "license": "GPL-3.0",
   "dependencies": {
+    "@mapbox/polyline": "^0.2.0",
     "express": "^4.16.2",
     "osrm": "^5.12.0"
   },
