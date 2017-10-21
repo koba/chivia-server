@@ -24,6 +24,7 @@ Chivia.prototype.easiestRoute = function (from, to) {
                 if (err) reject(err)
                 else {
                     res.routes.forEach(route => {
+                        route.encodedGeometry = route.geometry
                         route.geometry = polyline.decode(route.geometry)
                     })
 
