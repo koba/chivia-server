@@ -10,7 +10,7 @@ Chivia = function () {
     })
 }
 
-Chivia.prototype.easiestRoute = function (from, to) {
+Chivia.prototype.route = function (from, to) {
     let osrm = this.osrm
     return new Promise((resolve, reject) => {
         osrm.route(
