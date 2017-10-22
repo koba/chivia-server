@@ -1,38 +1,9 @@
-const path = require('path')
-const polyline = require('@mapbox/polyline')
-const OSRM = require('osrm')
+const Report = require('./report/Report')
+const Route = require('./route/Route')
 
-Chivia = function () {
-    this.osrm = new OSRM({ 
-        algorithm: 'MLD',
-        path: path.join(__dirname, '../../data/osrm/uruguay.bicycle/uruguay-latest.osrm'),
-        use_shared_memory: false
-    })
+module.exports = {
+
+    report: new Report(),
+    route: new Route()
+
 }
-
-Chivia.prototype.route = function (from, to) {
-    let osrm = this.osrm
-    return new Promise((resolve, reject) => {
-        osrm.route(
-            {
-                coordinates: [
-                    from,
-                    to
-                ]
-            },
-            (err, res) => {
-                if (err) reject(err)
-                else {
-                    res.routes.forEach(route => {
-                        route.encodedGeometry = route.geometry
-                        route.geometry = polyline.decode(route.geometry)
-                    })
-
-                    resolve(res)
-                }
-            }
-        )
-    })
-}
-
-module.exports = Chivia

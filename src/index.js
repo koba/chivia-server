@@ -10,6 +10,7 @@ app.get('/', function (req, res) {
     res.send('Chiviá')
 })
 
+app.use('/report', require('./controllers/report'))
 app.use('/route', require('./controllers/route'))
 app.use('/stand', require('./controllers/stand'))
 app.use('/workshop', require('./controllers/workshop'))
