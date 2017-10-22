@@ -16,9 +16,9 @@ const OSRM_PATH = path.join(__dirname, '../node_modules/osrm')
 
 let profile = process.argv[3]
 let osrmPbfFilename = process.argv[2]
-let osrmLatLngFilename = path.basename(osrmPbfFilename).replace('osm.pbf', 'txt')
+let osrmLatLngFilename = path.basename(osrmPbfFilename).replace('osm.pbf', 'latlng')
 
-let file = readline.createInterface({ input: fs.createReadStream(path.join(DATA_PATH, 'latlng', osrmLatLngFilename)) })
+let file = readline.createInterface({ input: fs.createReadStream(path.join(DATA_PATH, 'osrm', profile, osrmLatLngFilename)) })
 let locations = []
 let elevationPromises = []
 let elevationPromisesProgress = 0
