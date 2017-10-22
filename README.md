@@ -2,8 +2,6 @@
 
 ### Fetch elevation data
 
-Files in this folder are created following this three steps:
-
 1. Replace the `process_segment` function in lua profile for this one:
 
     ```lua
@@ -16,7 +14,7 @@ Files in this folder are created following this three steps:
 
 2. Run 
 
-    ```
+    ```bash
     node ./scripts/build_osrm_data.js uruguay.bicycle/uruguay-latest.osm.pbf bicycle.chivia > ./data/osrm/uruguay.bicycle/latlng/uruguay-latest.txt
     ```
 
@@ -24,10 +22,12 @@ Files in this folder are created following this three steps:
 
 4. Run
 
-    ```
+    ```bash
     node ./scripts/fetch_elevation_data.js uruguay.bicycle/uruguay-latest.osm.pbf bicycle.chivia
     ```
 
 ### Build data
 
+```bash
 node ./scripts/build_osrm_data.js uruguay.bicycle/uruguay-latest.osm.pbf bicycle.chivia
+```
