@@ -1,0 +1,338 @@
+[
+	{
+		"id": 1,
+		"name": "Maciel y Piedras",
+		"latitude": -34.906175,
+		"longitude": -56.212094444444446,
+		"size": 4,
+		"surface": "Calzada"
+	},
+	{
+		"id": 2,
+		"name": "Piedras y Zabala",
+		"latitude": -34.9047056,
+		"longitude": -56.20833888888889,
+		"size": 4,
+		"surface": "Calzada"
+	},
+	{
+		"id": 3,
+		"name": "Piedras e Ituzaingo",
+		"latitude": -34.9040583,
+		"longitude": -56.20557222222222,
+		"size": 4,
+		"surface": "Calzada"
+	},
+	{
+		"id": 4,
+		"name": "25 de Mayo y Zabala",
+		"latitude": -34.9065861,
+		"longitude": -56.20743055555556,
+		"size": 4,
+		"surface": "Calzada"
+	},
+	{
+		"id": 5,
+		"name": "Plaza Independencia",
+		"latitude": -34.9061611,
+		"longitude": -56.199875,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 6,
+		"name": "Plaza Ing. Juan Pedro Fabini",
+		"latitude": -34.9059111,
+		"longitude": -56.19465833333333,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 7,
+		"name": "Plaza Cagancha",
+		"latitude": -34.906075,
+		"longitude": -56.19090833333333,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 8,
+		"name": "Intendencia Montevideo",
+		"latitude": -34.9057889,
+		"longitude": -56.18653611111111,
+		"size": 6,
+		"surface": "Vereda"
+	},
+	{
+		"id": 10,
+		"name": "UTU",
+		"latitude": -34.9115889,
+		"longitude": -56.17867777777778,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 11,
+		"name": "Parque Jose Enrique Rodo",
+		"latitude": -34.9123417,
+		"longitude": -56.16633888888889,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 12,
+		"name": "Universidad de la República",
+		"latitude": -34.9023194,
+		"longitude": -56.176788888888886,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 13,
+		"name": "Perez Castellano y Reconquista",
+		"latitude": -34.9109278,
+		"longitude": -56.209072222222225,
+		"size": 4,
+		"surface": "Calzada"
+	},
+	{
+		"id": 14,
+		"name": "BSE",
+		"latitude": -34.9036333,
+		"longitude": -56.19371666666666,
+		"size": 12,
+		"surface": "Vereda"
+	},
+	{
+		"id": 15,
+		"name": "Plaza Zabala",
+		"latitude": -34.9075444,
+		"longitude": -56.20795555555556,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 16,
+		"name": "Rincón y Misiones",
+		"latitude": -34.9068583,
+		"longitude": -56.20578611111112,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 17,
+		"name": "Plaza Constitución",
+		"latitude": -34.9064278,
+		"longitude": -56.20400555555556,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 18,
+		"name": "Teatro Solís",
+		"latitude": -34.9075111,
+		"longitude": -56.20141666666667,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 19,
+		"name": "Liniers y San José",
+		"latitude": -34.9075889,
+		"longitude": -56.200300000000006,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 20,
+		"name": "Ciudadela y San José",
+		"latitude": -34.9077306,
+		"longitude": -56.199797222222216,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 22,
+		"name": "Liceo 2 Hector Miranda",
+		"latitude": -34.8913417,
+		"longitude": -56.18326666666666,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 23,
+		"name": "Liceo 4 Zorrilla de San Martin",
+		"latitude": -34.9093972,
+		"longitude": -56.16885277777777,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 24,
+		"name": "ISEF",
+		"latitude": -34.8966278,
+		"longitude": -56.15545,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 25,
+		"name": "LICEO 30 - Cagancha",
+		"latitude": -34.8969,
+		"longitude": -56.125661111111114,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 26,
+		"name": "LICEO 31 -Dr.Luis A. Herrera",
+		"latitude": -34.8923722,
+		"longitude": -56.10408888888889,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 27,
+		"name": "LICEO 10 - Dr. Carlos Vaz Ferreira",
+		"latitude": -34.8880472,
+		"longitude": -56.12115,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 28,
+		"name": "LICEO 15 - Ibiray",
+		"latitude": -34.8820778,
+		"longitude": -56.060925,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 29,
+		"name": "LICEO 62",
+		"latitude": -34.8037833,
+		"longitude": -56.22805833333334,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 30,
+		"name": "LICEO 38 Dr.Emilio Frugoni",
+		"latitude": -34.8670194,
+		"longitude": -56.23574722222222,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 31,
+		"name": "Luis A.Herrera y Baltasar Ojeda",
+		"latitude": -34.8574778,
+		"longitude": -56.19914444444444,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 32,
+		"name": "Parque Prado",
+		"latitude": -34.8612389,
+		"longitude": -56.19871111111111,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 33,
+		"name": "LICEO 16",
+		"latitude": -34.8704778,
+		"longitude": -56.20101944444445,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 34,
+		"name": "Escuela de Administración - UTU",
+		"latitude": -34.870275,
+		"longitude": -56.20055,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 35,
+		"name": "Terminal Paso de la Arena",
+		"latitude": -34.8350417,
+		"longitude": -56.27555833333333,
+		"size": 7,
+		"surface": "Vereda"
+	},
+	{
+		"id": 38,
+		"name": "Facultad de Ingenieria - UDELAR",
+		"latitude": -34.9183417,
+		"longitude": -56.16653611111111,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 39,
+		"name": "Anexo Fac. Ingenieria - FARO",
+		"latitude": -34.9170333,
+		"longitude": -56.16755,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 40,
+		"name": "Terminal Garzón",
+		"latitude": -34.7985944,
+		"longitude": -56.223441666666666,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 41,
+		"name": "Parque Rodo",
+		"latitude": -34.9133472,
+		"longitude": -56.16983611111111,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 42,
+		"name": "Parque Prado-Av. Delmira Agustini",
+		"latitude": -34.8592528,
+		"longitude": -56.20796666666667,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 45,
+		"name": "Plaza de los Treinta y Tres Orientales",
+		"latitude": -34.9029639,
+		"longitude": -56.17989166666666,
+		"size": 4,
+		"surface": "Vereda"
+	},
+	{
+		"id": 46,
+		"name": "BPS",
+		"latitude": -34.9002694,
+		"longitude": -56.17556666666666,
+		"size": 12,
+		"surface": "Vereda"
+	},
+	{
+		"id": 47,
+		"name": "Polideportivo - Salv. Ferrer Serra y Democracia",
+		"latitude": -34.895125,
+		"longitude": -56.175130555555555,
+		"size": 10,
+		"surface": "Vereda"
+	},
+	{
+		"id": 49,
+		"name": "BIBLIOTECA NACIONAL",
+		"latitude": -34.9026222,
+		"longitude": -56.17756388888888,
+		"size": 10,
+		"surface": "Vereda"
+	}
+]

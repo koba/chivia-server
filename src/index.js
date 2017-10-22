@@ -1,8 +1,10 @@
-const express = require('express')
 const bodyParser = require('body-parser')
-const app = express()
+const express = require('express')
+const fs = require('fs')
+const path = require('path')
 const Chivia = require('./chivia')
 
+let app = express()
 let chivia = new Chivia()
 
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -24,6 +26,11 @@ app.get('/route', (req, res) => {
         .catch(err => {
             res.status(501).send(err)
         })
+})
+
+app.get('/stand', (req, res) => {
+    let stands = fs.readFileSync(path.join(__dirname, '../data/stands/uruguay.json'))
+    res.send(JSON.parse(stands))
 })
 
 app.listen(3000, function () {
