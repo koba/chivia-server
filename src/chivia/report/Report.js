@@ -1,10 +1,5 @@
 const mongoose = require('mongoose')
-const ReportType = require('./ReportType')
-
-const ReportSchema = mongoose.Schema({
-    type: { type: String, required: true, enum: ReportType },
-    description: { type: String, required: true }
-})
+const ReportSchema = require('./ReportSchema')
 
 const ReportModel = mongoose.model('Report', ReportSchema)
 
