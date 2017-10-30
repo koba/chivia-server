@@ -15,6 +15,6 @@ app.use('/route', require('./controllers/route'))
 app.use('/stand', require('./controllers/stand'))
 app.use('/workshop', require('./controllers/workshop'))
 
-app.listen(process.env.port || 3000, function () {
+app.listen(process.env.PORT || 3000, function () {
     console.log('Example app listening on port 3000!')
 })
