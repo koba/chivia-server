@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "name": "Leonardo Viana Bicicletas",
+        "latitude": -34.90921890935369,
+        "longitude": -56.198930740356445,
+        "phone": "2901 0792",
+        "address": "Florida 1205",
+        "services": "Venta, Alquiler y Reparación"
+    },
+    {
+        "id": 2,
+        "name": "FMS",
+        "latitude": -34.9047444,
+        "longitude": -56.204972222222224,
+        "phone": "S/N",
+        "address": "Ituzaingó 512",
+        "services": "Reparación"
+    },
+    {
+        "id": 3,
+        "name": "Taller S/N",
+        "latitude": -34.8990417,
+        "longitude": -56.18663055555555,
+        "phone": "S/N",
+        "address": "La Paz 1443",
+        "services": "Reparación"
+    },
+    {
+        "id": 4,
+        "name": "Casa Tuttas",
+        "latitude": -34.8992389,
+        "longitude": -56.182091666666665,
+        "phone": "S/N",
+        "address": "Cerro Largo y Magallanes",
+        "services": "Reparación y Venta"
+    },
+    {
+        "id": 5,
+        "name": "Taller Defensa",
+        "latitude": -34.89331639014999,
+        "longitude": -56.1739675886929,
+        "phone": "S/N",
+        "address": "Defensa 1926",
+        "services": "Reparación"
+    },
+    {
+        "id": 6,
+        "name": "Taller Martínez",
+        "latitude": -34.8942083,
+        "longitude": -56.17283333333333,
+        "phone": "24017899",
+        "address": "Dr Martín C Martínez 1930",
+        "services": "Reparación"
+    },
+    {
+        "id": 7,
+        "name": "Taller Fernández",
+        "latitude": -34.8956667,
+        "longitude": -56.18176388888889,
+        "phone": "S/N",
+        "address": "Av. Daniel Fernández Crespo 2010",
+        "services": "Reparación y Venta"
+    },
+    {
+        "id": 8,
+        "name": "La Clinica de la Bicicleta",
+        "latitude": -34.9086056,
+        "longitude": -56.17828055555555,
+        "phone": "S/N",
+        "address": "Magallanes 1174",
+        "services": "Reparación"
+    },
+    {
+        "id": 9,
+        "name": "Casa Briano",
+        "latitude": -34.9021972,
+        "longitude": -56.19165833333333,
+        "phone": "S/N",
+        "address": "Av Gral Rondeau 1534",
+        "services": "Reparación y Venta"
+    },
+    {
+        "id": 10,
+        "name": "Bicicleteria Sur",
+        "latitude": -34.9104167,
+        "longitude": -56.187372222222216,
+        "phone": "S/N",
+        "address": "Aquiles R. Lanza 1086-1100",
+        "services": "Reparación"
+    },
+    {
+        "id": 11,
+        "name": "El Quinto Elemento",
+        "latitude": -34.9062556,
+        "longitude": -56.170791666666666,
+        "phone": "S/N",
+        "address": "Dr. Pablo de María 1178",
+        "services": "Reparación"
+    },
+    {
+        "id": 12,
+        "name": "Ciclos",
+        "latitude": -34.9183861,
+        "longitude": -56.16096666666667,
+        "phone": "S/N",
+        "address": "Claudio Williman 508",
+        "services": "Reparación"
+    },
+    {
+        "id": 13,
+        "name": "Colon Bicicletas - Sucursal Pocitos",
+        "latitude": -34.9086056,
+        "longitude": -56.17828055555555,
+        "phone": "S/N",
+        "address": "Av. Brasil 2849",
+        "services": "Reparación y Venta"
+    },
+    {
+        "id": 14,
+        "name": "La Gaceta",
+        "latitude": -34.9029389,
+        "longitude": -56.145830555555555,
+        "phone": "S/N",
+        "address": "La Gaceta S/N",
+        "services": "Reparación"
+    },
+    {
+        "id": 15,
+        "name": "Trek Pocitos",
+        "latitude": -34.9075167,
+        "longitude": -56.158097222222224,
+        "phone": "S/N",
+        "address": "Av. Brasil 2577",
+        "services": "Reparación y Venta"
+    },
+    {
+        "id": 16,
+        "name": "Motociclo",
+        "latitude": -34.9032222,
+        "longitude": -56.158966666666664,
+        "phone": "S/N",
+        "address": "Simón Bolivar 1393",
+        "services": "Reparación y Venta"
+    },
+    {
+        "id": 17,
+        "name": "Taller La Colonial",
+        "latitude": -34.9025917,
+        "longitude": -56.14338333333333,
+        "phone": "S/N",
+        "address": "Av. Gral. Rivera 3302",
+        "services": "Reparación"
+    },
+    {
+        "id": 18,
+        "name": "Urban Bikes",
+        "latitude": -34.9140222,
+        "longitude": -56.149141666666665,
+        "phone": "S/N",
+        "address": "Juan Benito Blanco 966",
+        "services": "Reparación"
+    },
+    {
+        "id": 19,
+        "name": "Cicles Tukin",
+        "latitude": -34.8859361,
+        "longitude": -56.13231944444445,
+        "phone": "S/N",
+        "address": "Hernandarias, 11400",
+        "services": "Reparación"
+    },
+    {
+        "id": 20,
+        "name": "Juan Articardi",
+        "latitude": -34.887875,
+        "longitude": -56.13658888888889,
+        "phone": "S/N",
+        "address": "Bv. José Batlle y Ordóñez 2197",
+        "services": "Reparación y Venta"
+    },
+    {
+        "id": 21,
+        "name": "Bicicleteria Carlos",
+        "latitude": -34.9026361,
+        "longitude": -56.14629722222222,
+        "phone": "S/N",
+        "address": "Alejo Rosell y Rius",
+        "services": "Reparación"
+    },
+    {
+        "id": 22,
+        "name": "Agamar",
+        "latitude": -34.9030111,
+        "longitude": -56.15741388888889,
+        "phone": "S/N",
+        "address": "Av. Gral. Rivera 2657",
+        "services": "Reparación y Venta"
+    },
+    {
+        "id": 23,
+        "name": "Bicicleta Salvador",
+        "latitude": -34.8901417,
+        "longitude": -56.14259166666667,
+        "phone": "S/N",
+        "address": "República Del Salvador 3548",
+        "services": "Reparación"
+    },
+    {
+        "id": 24,
+        "name": "Taller Yrigoyen",
+        "latitude": -34.8781667,
+        "longitude": -56.11096944444444,
+        "phone": "S/N",
+        "address": "May Juana Dobrich",
+        "services": "Reparación"
+    },
+    {
+        "id": 25,
+        "name": "Mataojos Bikes",
+        "latitude": -34.8887167,
+        "longitude": -56.121125,
+        "phone": "S/N",
+        "address": "Mataojo 1865",
+        "services": "Reparación"
+    },
+    {
+        "id": 26,
+        "name": "Motociclo Malvin",
+        "latitude": -34.8909222,
+        "longitude": -56.09603888888889,
+        "phone": "S/N",
+        "address": "Club Malvín, Av. Gral. Rivera",
+        "services": "Venta"
+    },
+    {
+        "id": 27,
+        "name": "Camargo Bici",
+        "latitude": -34.8735139,
+        "longitude": -56.12691111111111,
+        "phone": "S/N",
+        "address": "Cno. Carrasco 4226",
+        "services": "Reparación y Venta"
+    },
+    {
+        "id": 28,
+        "name": "Caramuru Bikes",
+        "latitude": -34.8925222,
+        "longitude": -56.079727777777784,
+        "phone": "S/N",
+        "address": "Ave Gral. Jose Maria Paz 1467",
+        "services": "Reparación"
+    },
+    {
+        "id": 29,
+        "name": "Bici Bolivia",
+        "latitude": -34.8834639,
+        "longitude": -56.083761111111116,
+        "phone": "S/N",
+        "address": "Avenida Bolivia 2125",
+        "services": "Reparación y Venta"
+    },
+    {
+        "id": 30,
+        "name": "Faluotico Bicicletas",
+        "latitude": -34.8852778,
+        "longitude": -56.09576388888889,
+        "phone": "S/N",
+        "address": "Paralela Sur 11400",
+        "services": "Reparación"
+    }
+]
