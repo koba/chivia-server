@@ -1,4 +1,5 @@
 module.exports = [
-    'Calzada Rota',
-    'Robo'
+    1, // 'Incidente'
+    2, // 'Incidente en el mapa'
+    3, // 'Robo'
 ]
